@@ -1,22 +1,14 @@
-CREATE TABLE recode (
-    startswith integer,
-    original varchar(5),
-    target varchar(5)
+CREATE TABLE nyu_ed_scores (
+    dx text NOT NULL,
+    dxname text,
+    dxshort text,
+    edcnnpa numeric,
+    edcnpa numeric,
+    epct numeric,
+    noner numeric,
+    alcohol numeric,
+    drug numeric,
+    injury numeric,
+    psych numeric,
+    unc numeric
 );
-
-
-CREATE TABLE special (
-    dx varchar(5),
-    category varchar(10)
-);
-
-
-CREATE TABLE xacs (
-    dx varchar(5),
-    xed1 numeric,
-    xed2 numeric,
-    xed3 numeric,
-    xed4 numeric,
-    cases numeric
-);
-
