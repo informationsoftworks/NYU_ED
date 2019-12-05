@@ -55,6 +55,8 @@ All the ICD diagnosis scoring data sets have been standardized in column order a
 
 ### ICD-10 based sets
 
+Note: the "2015_icd10_nyu_update.csv" and "2017_icd10_hesr.csv" appear to be based on the "[2014 Code Descriptions in Tabular Order (ZIP)](https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2014-ICD10-Code-Descriptions.zip)" as found at https://www.cms.gov/Medicare/Coding/ICD10/2014-ICD-10-CM-and-GEMs.  As of 2019-12-05, the current version of ICD10 ("[2020 Code Descriptions in Tabular Order (ZIP)](https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2020-ICD-10-CM-Codes.zip)" from https://www.cms.gov/Medicare/Coding/ICD10/2020-ICD-10-CM), there have been 2,880 new codes added and 519 codes removed (of which 290 are coded in 2015_icd9_nyu_update.csv).
+
 * `2015_icd10_nyu_update.csv` - 69,823 records
     * Extracted from spreadsheet [NYU_ED_Algorithm_-_ICD-10_Codes_-_6.23.15.xlsx](http://wagner.nyu.edu/files/faculty/NYU_ED_Algorithm_-_ICD-10_Codes_-_6.23.15.xlsx) downloaded from [https://wagner.nyu.edu/faculty/billings/nyued-background](https://wagner.nyu.edu/faculty/billings/nyued-background)
 
