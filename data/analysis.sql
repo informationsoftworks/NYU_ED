@@ -240,7 +240,7 @@ full outer join hesr_2017 w on w.dx = o.dx
 
 
 
--- Compare NYUED 2009 revision with HESR "Patch":
+-- Compare NYUED 2015 ICD10 version with HESR "Patch":
 select
 	sum(case when w.dx is null then 1 else 0 end) as deleted,
 	sum(case when w.dx is null and o.unc=1 then 1 else 0 end) as deleted_unclassified,
